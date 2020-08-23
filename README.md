@@ -2,9 +2,9 @@
 Moscow OVH Icons Replacer
 
 
-1. Необходимо подключить библиотеку EasyIcons в BODY шаблона в панеле MoscowOVH предварительно загрузив на CDN сервис
+1. Необходимо подключить библиотеку EasyIcons в BODY шаблона в панеле Moscow OVH
 ```html
-    <script src="https://raw.githubusercontent.com/nod3zp/EasyIcons/master/EasyIcon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/nod3zp/easyicons/EasyIcon.min.js"></script>
 ```
 или вместо CDN сервиса можно использовать RAW код с одного из файлов
 ```html
