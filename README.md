@@ -25,13 +25,15 @@ Moscow OVH Icons Replacer
             {
                 where: '<span>Серверы</span>',
                 icon: 'fas fa-server',
-                tag: '.nav-link'
+                tag: '.nav-link',
+                add: true
             }
         ];
 
         //  where - Это параметр предопределяющий заменяемый компонент
         //  tag - Класс объекта в котором выполняем поиск where (Для хеадера это .nav-link)
         //  icon - Класс иконки с сервиса https://fontawesome.com/icons
+        //  add - Необязательный тэг при добавление которого и установке его значения на TRUE будет не заменяться текст а добавляться иконка к тексту
 
         new EasyIcons(IconsArray);
     </script>
