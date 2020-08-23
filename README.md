@@ -23,8 +23,8 @@ Moscow OVH Icons Replacer
                 tag: '.nav-link'
             },
             {
-                where: '<span>Обратная связь</span>',
-                icon: 'fas fa-ice-cream',
+                where: '<span>Серверы</span>',
+                icon: 'fas fa-server',
                 tag: '.nav-link'
             }
         ];
