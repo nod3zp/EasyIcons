@@ -14,9 +14,16 @@ class EasyIcons {
             document.querySelectorAll(icon.tag).forEach((currentObject)=>{
                 if(currentObject.innerHTML == icon.where)
                 {
-                    currentObject.innerHTML = `<i class='${icon.icon}'></i>`;
+                    if(icon.add)
+                    {
+                        currentObject.innerHTML =  `<i class='${icon.icon}'></i> ` + currentObject.innerHTML;
+                    }
+                    else
+                    {
+                        currentObject.innerHTML = `<i class='${icon.icon}'></i>`;
+                    }
                 }
             });
         });
     }
-}
+}   
