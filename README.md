@@ -16,18 +16,23 @@ Moscow OVH Icons Replacer
 2. В тот-же BODY добавляем инициализацию скрипта и вводим необходимые параметры
 ```html
     <script>
-      let IconsArray = [
-          {
-              where: '<span>Обратная связь</span>',
-              icon: 'fas fa-ice-cream',
-              tag: '.nav-link'
-          }
-      ];
+        let IconsArray = [
+            {
+                where: '<span>Обратная связь</span>',
+                icon: 'fas fa-ice-cream',
+                tag: '.nav-link'
+            },
+            {
+                where: '<span>Обратная связь</span>',
+                icon: 'fas fa-ice-cream',
+                tag: '.nav-link'
+            }
+        ];
 
-      //  where - Это параметр предопределяющий заменяемый компонент
-      //  tag - Класс объекта в котором выполняем поиск where (Для хеадера это .nav-link)
-      //  icon - Класс иконки с сервиса FontAwesome
+        //  where - Это параметр предопределяющий заменяемый компонент
+        //  tag - Класс объекта в котором выполняем поиск where (Для хеадера это .nav-link)
+        //  icon - Класс иконки с сервиса https://fontawesome.com/icons
 
-      new EasyIcons(IconsArray);
+        new EasyIcons(IconsArray);
     </script>
 ```
