@@ -3,6 +3,10 @@
     Author: nod3zp
     Special for https://darkplugins.ru/
 */
+let $ = document;
+let style = $.createElement('style');
+style.appendChild($.createTextNode("@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');"));
+$.getElementsByTagName('head')[0].appendChild(style);
 class EasyIcons {
     constructor(iconsArray)
     {
