@@ -3,10 +3,10 @@
     Author: nod3zp
     Special for https://darkplugins.ru/
 */
-let $ = document;
-let style = $.createElement('style');
-style.appendChild($.createTextNode("@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');"));
-$.getElementsByTagName('head')[0].appendChild(style);
+let d = document;
+let style = d.createElement('style');
+style.appendChild(d.createTextNode("@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');"));
+d.getElementsByTagName('head')[0].appendChild(style);
 class EasyIcons {
     constructor(iconsArray)
     {
@@ -16,11 +16,11 @@ class EasyIcons {
                 {
                     if(icon.add)
                     {
-                        currentObject.innerHTML =  `<i class='${icon.icon}'></i> ` + currentObject.innerHTML;
+                        currentObject.innerHTML =  `<i class='d{icon.icon}'></i> ` + currentObject.innerHTML;
                     }
                     else
                     {
-                        currentObject.innerHTML = `<i class='${icon.icon}'></i>`;
+                        currentObject.innerHTML = `<i class='d{icon.icon}'></i>`;
                     }
                 }
             });
